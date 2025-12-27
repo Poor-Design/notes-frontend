@@ -1,5 +1,5 @@
 import { Pencil, Trash2 } from 'lucide-react'
-import './NoteCard.css'
+import './Notecard.css'
 
 function NoteCard({ note, onEdit, onDelete }) {
   const formatDate = (dateString) => {
