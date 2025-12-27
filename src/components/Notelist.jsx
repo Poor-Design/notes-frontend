@@ -1,5 +1,5 @@
 import NoteCard from './Notecard'
-import './NoteList.css'
+import './Notelist.css'
 
 function NoteList({ notes, onEdit, onDelete }) {
   if (notes.length === 0) {
